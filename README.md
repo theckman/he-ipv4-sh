@@ -3,7 +3,7 @@ What
 
 This is a maintenance script to ensure that your Hurricane Electric Tunnel Broker IPv6 tunnel is always listening for connections from your current external IPv4 address.  
 
-This script is helpful if you have a dynamic IP address from your ISP.  The script is also logical and does not needlessly update the IPv6 address via HE\'s API.
+This script is helpful if you have a dynamic IP address from your ISP.  The script is also logical and does not needlessly update the IPv6 address via HE's API.
 
 This was written and tested with Debian Squeeze (6.0), but it may work on other Debian-derived distributions.  It was also written with the assumption that your tunnel is configured the same way as explained in my blog post:
 
