@@ -35,5 +35,9 @@ The configuration is all done within the script file itself.  There is a configu
 * **tunnelID**: the unique tunnel ID number from your tunnel's information page
 * **tunnelName**: this is the *local* name for the Tunnel Broker interface.  In my blog I use the name "he-ipv6"
 * **LOG**: the prefix for syslog entries
-* **LVL**: defines the verbosity of the logging of the script (see the config section for more info)
+* **LVL**: defines the verbosity of syslog logging of the script:
+ * **LVL=3**: most verbose. This logs everything
+ * **LVL=2**: this only logs warnings+errors
+ * **LVL=1**: this only logs errors
+ * **LVL=0**: logging is disabled
 * **URLA/URLB**: the two URLs that we alternate pulling external IPv4 address from. This *should* not be modified.
