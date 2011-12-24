@@ -44,7 +44,7 @@
 # Please check all entries before initiating the script
 ######################################################################
 
-# Settings from Hurricane Electric Tunnel Broker sit
+# Settings from Hurricane Electric Tunnel Broker site
 # UserID avalue from the Tunnel Broker "Main Page"
 userID=""
 
