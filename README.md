@@ -1,6 +1,8 @@
 What
 ====
 
+**Please note**: this script has been deprecated by my Perl rewrite.  You should use the [he-ipv4-perl](https://github.com/theckman/he-ipv4-perl "https://github.com/theckman/he-ipv4-perl") script instead.
+
 This is a maintenance script to ensure that your Hurricane Electric Tunnel Broker IPv6 tunnel is always listening for connections from your current external IPv4 address.  
 
 This script is helpful if you have a dynamic IP address from your ISP.  The script is also logical and does not needlessly update the IPv6 address via HE's API.
